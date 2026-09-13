@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="R. Akshai Kumar — Bioinformatics portfolio and CV.">
+<title>R. Akshai Kumar | Bioinformatics</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#07111f;--card:#0d1b2e;--text:#edf5ff;--muted:#9db0c8;--line:rgba(255,255,255,.09);--green:#4ade80;--blue:#38bdf8}
+*{box-sizing:border-box;scroll-behavior:smooth}body{margin:0;background:linear-gradient(180deg,var(--bg),#0a1626 55%,var(--bg));color:var(--text);font:16px/1.7 Inter,Arial,sans-serif}a{text-decoration:none;color:inherit}.wrap{width:min(1100px,92%);margin:auto}
+nav{position:sticky;top:0;z-index:10;background:rgba(7,17,31,.85);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}.nav{height:70px;display:flex;align-items:center;justify-content:space-between}.logo{font:700 1.2rem "Space Grotesk"}.logo span{color:var(--green)}.links{display:flex;gap:23px;color:var(--muted);font-size:.92rem}.links a:hover{color:white}
+.menu{display:none;background:none;border:0;color:white;font-size:1.5rem}
+.hero{min-height:88vh;display:grid;align-items:center}.hero-grid{display:grid;grid-template-columns:1.35fr .65fr;gap:55px;align-items:center}.eyebrow{color:var(--green);font-weight:800;text-transform:uppercase;letter-spacing:.1em;font-size:.78rem}.hero h1{font:700 clamp(3rem,7vw,5.8rem)/.98 "Space Grotesk";margin:18px 0}.hero h1 span{color:var(--green)}.hero p{color:var(--muted);max-width:700px;font-size:1.08rem}.buttons{display:flex;flex-wrap:wrap;gap:12px;margin-top:25px}.btn{padding:11px 17px;border:1px solid var(--line);border-radius:10px;font-weight:700}.primary{background:var(--green);color:#06200f;border-color:var(--green)}
+.avatar{width:190px;height:190px;border-radius:35px;display:grid;place-items:center;background:linear-gradient(135deg,var(--blue),var(--green));color:#06131e;font:800 4rem "Space Grotesk";box-shadow:0 25px 70px rgba(0,0,0,.3)}
+section{padding:85px 0}.label{color:var(--green);font-size:.78rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}h2{font:700 2.25rem "Space Grotesk";margin:6px 0 30px}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px}.card{background:rgba(13,27,46,.8);border:1px solid var(--line);border-radius:18px;padding:25px}.card h3{font-family:"Space Grotesk";margin-top:0}.muted{color:var(--muted)}
+.skills{display:flex;flex-wrap:wrap;gap:9px}.skill{padding:7px 11px;border-radius:999px;background:#11253d;border:1px solid var(--line);font-size:.88rem}
+.project{margin-bottom:16px}.tag{font-size:.75rem;color:var(--blue);font-weight:800;letter-spacing:.1em;text-transform:uppercase}.project h3{margin:7px 0 10px}.project a{color:var(--green);font-weight:700}
+.timeline{display:grid;gap:16px}.timeline .card{border-left:2px solid var(--green)}.date{color:var(--blue);font-size:.75rem;font-weight:800}
+.contact{display:grid;gap:12px}.contact a{padding:14px 16px;border:1px solid var(--line);border-radius:11px;background:rgba(255,255,255,.025)}
+footer{padding:28px 0;border-top:1px solid var(--line);color:var(--muted);font-size:.85rem}
+@media(max-width:800px){.hero-grid,.grid2{grid-template-columns:1fr}.avatar{width:140px;height:140px;font-size:3rem}.links{display:none;position:absolute;top:70px;left:0;right:0;background:#0a1626;padding:20px;flex-direction:column}.links.open{display:flex}.menu{display:block}}
+</style>
+</head>
+<body>
+<nav><div class="wrap nav"><a class="logo" href="#home">AK<span>.</span></a><button class="menu" onclick="document.querySelector('.links').classList.toggle('open')">☰</button><div class="links"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#research">Research</a><a href="#contact">Contact</a></div></div></nav>
+
+<main>
+<section class="hero" id="home"><div class="wrap hero-grid">
+<div><div class="eyebrow">Bioinformatics • Computational Biology • Drug Discovery</div>
+<h1>R. Akshai<br><span>Kumar</span></h1>
+<p>Bioinformatics student working across computational biology, genomics, data analysis, phylogenetics, machine learning and computational molecular docking.</p>
+<div class="buttons"><a class="btn primary" href="#projects">View Projects</a><a class="btn" href="assets/Akshai_Kumar_CV.pdf" target="_blank">View / Download CV</a><a class="btn" href="https://github.com/R-Akshai-kumar02" target="_blank">GitHub ↗</a></div>
+</div><div><div class="avatar">AK</div></div>
+</div></section>
+
+<section id="about"><div class="wrap"><div class="label">01 — Profile</div><h2>About me</h2><div class="grid2">
+<div><p>I am a 5th-year M.Sc. (Integrated) Bioinformatics student at Bharathidasan University, Trichy. My interests span computational biology, genomics, data analysis and computational molecular docking.</p><p class="muted">I am particularly interested in applying bioinformatics and computational methods to biological and drug-discovery questions.</p></div>
+<div class="card"><h3>Education</h3><p><strong>Bharathidasan University, Trichy</strong></p><p class="muted">M.Sc. (Integrated) Bioinformatics · 5th year</p><p><strong>CGPA: 8.07</strong> · Present</p><hr style="border:0;border-top:1px solid var(--line)"><p><strong>Theni Kammavar Sangam Matriculation Higher Secondary School</strong></p><p class="muted">93% · 2015–2022</p></div>
+</div></div></section>
+
+<section id="skills"><div class="wrap"><div class="label">02 — Skills</div><h2>Technical toolkit</h2><div class="card"><div class="skills">
+<span class="skill">R</span><span class="skill">Python</span><span class="skill">DESeq2</span><span class="skill">Machine Learning</span><span class="skill">Bioinformatics Tools & Databases</span><span class="skill">Computational Molecular Docking</span><span class="skill">Phylogenetic Analysis</span><span class="skill">Biological Data Analysis</span><span class="skill">Data Visualization</span><span class="skill">Communication</span><span class="skill">Teamwork</span><span class="skill">Problem Solving</span></div></div></div></section>
+
+<section id="projects"><div class="wrap"><div class="label">03 — Projects</div><h2>Selected work</h2>
+<div class="card project"><div class="tag">Mini-project · Phylogenetics</div><h3>Tracing the Phylogenetic Footprint of the Human Nervous System</h3><p class="muted">Comparative genomic analysis of 10 major neurotransmission pathways across 17 taxa spanning archaea to vertebrates. Performed sequence homology assessment and phylogenetic reconstruction to investigate conservation of neurotransmitter biosynthetic enzymes, transporters and receptor subunits.</p><p>Identified conserved core signaling components in bilaterians, including GAD1, SLC6A4 and HTR2A, alongside lineage-specific receptor diversification.</p><a href="https://github.com/R-Akshai-kumar02/Academic-Project" target="_blank">GitHub project ↗</a></div>
+<div class="card project"><div class="tag">Research internship · Computational drug discovery</div><h3>Phytochemicals as Potential Inhibitors of Mutant Huntingtin Aggregation</h3><p class="muted">At the Bioinformatics Centre, Madras Veterinary College (TANUVAS), investigated phytochemicals from <em>Juglans regia</em> as potential inhibitors of mutant huntingtin protein aggregation.</p><p>Screened 209 phytochemicals using SwissADME and ProTox-3.0, predicted pharmacodynamic activity with PASS, performed docking of 6 shortlisted compounds using AutoDock Vina and LibDock, and investigated complex stability using OpenMM.</p><p><strong>Lead compound identified: Geranic acid.</strong></p><a href="https://github.com/R-Akshaikumar02/HuntingtonDisease" target="_blank">GitHub project ↗</a></div>
+<div class="card project"><div class="tag">Personal project · Machine learning</div><h3>BioHTT — ML-Based Bioactivity Predictor for Huntingtin Protein</h3><p class="muted">Developed and deployed a Streamlit web application for Active/Inactive compound bioactivity prediction against the Huntingtin protein. Processed SMILES into 2048-bit Morgan fingerprints (ECFP4) using RDKit and trained a Random Forest classifier with confidence scores. Integrated QSAR descriptor calculation into the application.</p><a href="https://github.com/R-Akshai-kumar02/BioHTT-Tool" target="_blank">GitHub ↗</a> · <a href="https://biohtt-tool-a9plsplwkqbevgoore5bir.streamlit.app/" target="_blank">Live tool ↗</a></div>
+</div></section>
+
+<section id="research"><div class="wrap"><div class="label">04 — Research</div><h2>Research interests</h2><div class="timeline">
+<div class="card"><div class="date">GENOMICS</div><h3>Genomics & Transcriptomics</h3><p class="muted">Differential expression analysis and computational interpretation of biological data.</p></div>
+<div class="card"><div class="date">COMPUTATIONAL BIOLOGY</div><h3>Phylogenetics & Biological Data Analysis</h3><p class="muted">Comparative sequence analysis, evolutionary relationships and biological data visualization.</p></div>
+<div class="card"><div class="date">DRUG DISCOVERY</div><h3>Structural Bioinformatics & Molecular Docking</h3><p class="muted">Protein–ligand interaction analysis, virtual screening and computational drug-discovery workflows.</p></div>
+<div class="card"><div class="date">MACHINE LEARNING</div><h3>ML for Bioactivity & Biomarker Discovery</h3><p class="muted">Applying machine-learning workflows to biological datasets and compound bioactivity prediction.</p></div>
+</div></div></section>
+
+<section id="contact"><div class="wrap"><div class="label">05 — Contact</div><h2>Let's connect</h2><div class="grid2"><div><p class="muted">For internships, research projects and computational biology opportunities, you can reach me through the links below.</p><div class="buttons"><a class="btn primary" href="mailto:akshaikumar2005@gmail.com">Email me</a><a class="btn" href="https://www.linkedin.com/in/r-akshai-kumar-4886a6287/" target="_blank">LinkedIn ↗</a></div></div><div class="contact"><a href="mailto:akshaikumar2005@gmail.com">✉ akshaikumar2005@gmail.com</a><a href="https://github.com/R-Akshai-kumar02" target="_blank">⌘ github.com/R-Akshai-kumar02</a><a href="https://www.linkedin.com/in/r-akshai-kumar-4886a6287/" target="_blank">in linkedin.com/in/r-akshai-kumar-4886a6287</a></div></div></div></section>
+</main>
+<footer><div class="wrap">© <span id="year"></span> R. Akshai Kumar · Bioinformatics Portfolio</div></footer>
+<script>document.getElementById("year").textContent=new Date().getFullYear();</script>
+</body>
+</html>
