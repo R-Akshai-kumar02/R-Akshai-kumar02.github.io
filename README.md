@@ -1,6 +1,6 @@
 # R. Akshai Kumar — Bioinformatics Portfolio
 
-This package contains the portfolio website and your original CV PDF.
+This package contains the portfolio webste forCV.
 
 ## Files
 - `index.html` — portfolio website
